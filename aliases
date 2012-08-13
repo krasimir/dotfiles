@@ -1,1 +1,12 @@
 alias gogo='sh /home/krasimir/Projects/Krasimir/dotfiles/startup'
+alias sublime='/home/krasimir/Apps/Sublime\ Text\ 2/sublime_text'
+
+# dev
+alias restartnginx='sudo /etc/init.d/nginx restart'
+alias stopnginx='sudo /etc/init.d/nginx stop'
+alias startnginx='sudo /etc/init.d/nginx start'
+alias restartapache2='sudo /etc/init.d/apache2 restart'
+alias stopapache2='sudo /etc/init.d/apache2 stop'
+alias startapache2='sudo /etc/init.d/apache2 start'
+alias confignginx='sudo vim /etc/nginx/nginx.conf'
+alias edithosts='sudo vim /etc/hosts'
