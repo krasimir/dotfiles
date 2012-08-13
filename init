@@ -1,3 +1,4 @@
 . /home/krasimir/Projects/Krasimir/dotfiles/aliases
+. /home/krasimir/Projects/Krasimir/dotfiles/git
 . /home/krasimir/Projects/Krasimir/dotfiles/node
 echo "Hello Boss !"

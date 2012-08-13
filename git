@@ -1,0 +1,2 @@
+git config --global user.name "Krasimir Tsonev"
+git config --global user.email krasimir@outset.ws
