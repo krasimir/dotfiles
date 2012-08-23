@@ -10,3 +10,7 @@ alias edithosts='sudo vim /etc/hosts'
 
 # node
 alias shownodes='ps aux | grep node'
+alias killnodes='sudo killall -9 node'
+
+# other
+alias showports='sudo netstat -antp'
