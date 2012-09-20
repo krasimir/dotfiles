@@ -1,1 +1,2 @@
 alias svnaddall='svn status | grep "^\?" | awk "{print $2}" | xargs svn add'
+alias svnremoveall='svn status | grep "^\!" | sed "s/! *//" | xargs -I% svn rm %'
