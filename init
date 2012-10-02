@@ -2,4 +2,5 @@
 . /home/krasimir/Work/Krasimir/dotfiles/git
 . /home/krasimir/Work/Krasimir/dotfiles/svn
 . /home/krasimir/Work/Krasimir/dotfiles/node
+. /home/krasimir/Work/Krasimir/dotfiles/wine
 echo "Hello Boss !"
