@@ -14,3 +14,4 @@ alias killnodes='sudo killall -9 node'
 
 # other
 alias showports='sudo netstat -antp'
+alias addvirtualhostinapache='sudo sh /home/krasimir/Work/Krasimir/helpers/shellScripts/addvirtualhostinapache.sh'
