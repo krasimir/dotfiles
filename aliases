@@ -15,3 +15,5 @@ alias killnodes='sudo killall -9 node'
 # other
 alias showports='sudo netstat -antp'
 alias addvirtualhostinapache='sudo sh /home/krasimir/Work/Krasimir/helpers/shellScripts/addvirtualhostinapache.sh'
+alias nginxdisablehost='sudo sh /home/krasimir/Work/Krasimir/helpers/shellScripts/nginxDisableVirtualHost.sh'
+alias nginxenablehost='sudo sh /home/krasimir/Work/Krasimir/helpers/shellScripts/nginxEnableVirtualHost.sh'
