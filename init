@@ -1,6 +1,6 @@
-. /home/krasimir/Work/Krasimir/dotfiles/aliases
-. /home/krasimir/Work/Krasimir/dotfiles/git
-. /home/krasimir/Work/Krasimir/dotfiles/svn
-. /home/krasimir/Work/Krasimir/dotfiles/node
-. /home/krasimir/Work/Krasimir/dotfiles/wine
+. /home/krasimir/Work/Krasimir/github/dotfiles/aliases
+. /home/krasimir/Work/Krasimir/github/dotfiles/git
+. /home/krasimir/Work/Krasimir/github/dotfiles/svn
+. /home/krasimir/Work/Krasimir/github/dotfiles/node
+. /home/krasimir/Work/Krasimir/github/dotfiles/wine
 echo "Hello Boss !"
