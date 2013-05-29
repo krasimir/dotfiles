@@ -8,7 +8,7 @@ function s {
 	git status
 }
 function ci {
-	git commit -am "$args[0]"
+	git commit -am $args[0]
 }
 
 Set-Alias projects goToProjects
