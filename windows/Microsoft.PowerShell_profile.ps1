@@ -1,14 +1,31 @@
-# How to manage the profile file -> http://technet.microsoft.com/en-us/library/ee176913.aspx
-# Create 'WindowsPowerShell' in C:\Users\<username>\Documents\ and put the file there 
+# http://krasimirtsonev.com/blog/article/Git-under-windows-console-mode-helpful-tips
 
-function goToProjects {
-	set-location d:\work
+function goTo {
+	set-location $args[0]
 }
-function s {
+
+# ************************************************** git
+
+function st {
 	git status
 }
 function ci {
+	git add .
 	git commit -am $args[0]
 }
+function add {
+	git add .
+}
+function log {
+	git log -15 --format="%Cgreen%cn / %s%n%ai / %h"
+}
 
-Set-Alias projects goToProjects
+# ************************************************** projects
+function projects {
+	goTo d:\work
+}
+
+# ************************************************** other
+
+Set-Alias work goToProjects
+Set-Alias l cls
