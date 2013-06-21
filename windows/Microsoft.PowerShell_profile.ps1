@@ -36,6 +36,21 @@ function projects {
 	goTo d:\work
 }
 
+# ************************************************** nodejs
+function shownodes {
+	wmic path win32_process get 'Commandline,Processid' | grep node
+}
+function startauxiliobackend {
+	echo "Auxilio-backend running"
+	Start-Job -scriptblock {auxilio-backend}
+}
+function stopauxiliobackend {
+	echo "Use Get-job to find out the id of the auxilio background job. After that 'Stop-Job [id]' to stop it. You could use also 'Remove-Job [id]' to remove if from the jobs' list."
+}
+
 # ************************************************** other
 
 Set-Alias l cls
+
+startauxiliobackend
+projects
