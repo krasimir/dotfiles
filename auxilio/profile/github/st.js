@@ -1,3 +1,3 @@
-function status(args) {
-	exec('git status -sb');
+function status(args, callback) {
+	exec('git status -sb', callback);
 }

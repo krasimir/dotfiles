@@ -1,3 +1,3 @@
-function showMongoDB(args) {
-	exec("wmic path win32_process get Commandline,Processid | grep mongo");
+function showMongoDB(args, callback) {
+	exec("wmic path win32_process get Commandline,Processid | grep mongo", callback);
 }

@@ -1,3 +1,3 @@
-function stopMongoDB(args) {
-	exec('taskkill /F /IM node*');
+function stopMongoDB(args, callback) {
+	exec('taskkill /F /IM node*', callback);
 }

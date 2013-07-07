@@ -1,3 +1,3 @@
-function gitlog(args) {
-	exec('git log -15 --format="%Cgreen%cn / %s%n%ai / %h"');
+function gitlog(args, callback) {
+	exec('git log -15 --format="%Cgreen%cn / %s%n%ai / %h"', callback);
 }
