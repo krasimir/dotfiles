@@ -8,5 +8,13 @@ function updateAuxilioManuals(args, callback) {
 			})
 		});
 	})
+
+	/*chain([
+		["block", "start"],
+		["cd", "D:/work/KrasimirTsonev/github/dotfiles"],
+		["ci", "Updating dotfiles"],
+		["push", "master"],
+		["block", "end"]
+	], callback)*/
 	
 }
