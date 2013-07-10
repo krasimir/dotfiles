@@ -1,6 +1,7 @@
 function ci(args, callback) {
 	var message = args.join(" ");
-	exec('git add .', function() {
-		exec('git commit -am "' + message + '"', callback);
-	});
+	Chain()("done", callback)(
+		[shell, 'git add .'],
+		[shell, 'git commit -am "' + message + '"']
+	);
 }
