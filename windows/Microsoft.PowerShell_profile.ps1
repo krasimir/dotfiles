@@ -1,4 +1,5 @@
 # http://krasimirtsonev.com/blog/article/Git-under-windows-console-mode-helpful-tips
+# location: C:\Users\krasimir\Documents\WindowsPowerShell\
 
 function goTo {
 	set-location $args[0]
@@ -12,6 +13,21 @@ function st {
 function ci {
 	git add .
 	git commit -am $args[0]
+}
+function cipm {
+	git add .
+	git commit -am $args[0]
+	git push origin master
+}
+function cipd {
+	git add .
+	git commit -am $args[0]
+	git push origin develop
+}
+function cipp {
+	git add .
+	git commit -am $args[0]
+	git push origin gh-pages
 }
 function add {
 	git add .
@@ -47,6 +63,12 @@ function shownodes {
 # function stopauxiliobackend {
 # 	echo "Use Get-job to find out the id of the auxilio background job. After that 'Stop-Job [id]' to stop it. You could use also 'Remove-Job [id]' to remove if from the jobs' list."
 # }
+
+# ************************************************** mongodb
+function mongodb {
+	goTo "C:\Program Files (x86)\mongodb\bin"
+	.\mongod.exe --dbpath D:\work\_mongodb\data
+}
 
 # ************************************************** other
 
