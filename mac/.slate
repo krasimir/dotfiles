@@ -1,0 +1,5 @@
+bind g:cmd;ctrl focus 'Google Chrome'
+bind s:cmd;ctrl focus 'Sublime Text 2'
+bind t:cmd;ctrl focus 'iTerm'
+bind d:cmd;ctrl focus 'Finder'
+bind m:cmd;ctrl focus 'Mail'
