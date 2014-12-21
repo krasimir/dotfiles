@@ -49,7 +49,7 @@ plugins=(git ruby)
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/krasimir/.rvm/bin"
+export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/krasimir/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -80,3 +80,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source "/usr/local/bin/virtualenvwrapper.sh"
+
+alias gotoprivate="cd ~/Work/Krasimir/private"
+alias gotostudybuilder="cd ~/Work/TrialReach/projects/studybuilder"
+
+
